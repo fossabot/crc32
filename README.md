@@ -9,6 +9,7 @@ The following reposiitory and documentation is left for historical reasons (and 
 This package is a drop-in replacement for the standard library `hash/crc32` package, that features SSE 4.2 optimizations on x64 platforms, for a 10x speedup.
 
 [![Build Status](https://travis-ci.org/klauspost/crc32.svg?branch=master)](https://travis-ci.org/klauspost/crc32)
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fcanv15%2Fcrc32.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fcanv15%2Fcrc32?ref=badge_shield)
 
 # usage
 
@@ -90,3 +91,6 @@ However, the improved use of slice-by-8 has not, but will probably be submitted 
 # license
 
 Standard Go license. Changes are Copyright (c) 2015 Klaus Post under same conditions.
+
+
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fcanv15%2Fcrc32.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fcanv15%2Fcrc32?ref=badge_large)
